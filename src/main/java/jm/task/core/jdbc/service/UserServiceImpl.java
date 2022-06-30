@@ -32,7 +32,4 @@ public class UserServiceImpl implements UserService {
         dao.cleanUsersTable();
     }
 
-    public void closeConnection() {
-        dao.closeConnection();
-    }
 }

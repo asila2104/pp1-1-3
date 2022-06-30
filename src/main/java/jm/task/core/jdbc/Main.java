@@ -21,7 +21,5 @@ public class Main {
         bd.cleanUsersTable();
 
         bd.dropUsersTable();
-
-        bd.closeConnection();
     }
 }
